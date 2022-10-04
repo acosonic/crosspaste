@@ -21,6 +21,8 @@ To add it to dock, just right click and choose **Add to Favorites**
 3. Switch to application where you need it pasted
 4. Wait for text to appea
 
+![Usage](vokoscreen-2022-10-04_14-51-29.gif)
+
 ### How it works:
 
 1. It uses xdtool to acheive keystroke typing taken from clipboard via xclip
