@@ -14,18 +14,28 @@ which you can later invoke by running it as application via launcher or dock.
 
 To add it to dock, just right click and choose **Add to Favorites**
 
-How it works:
+### How to use it?
+
+1. Copy the text you need pasted on clipboard.
+2. Click paste icon (you have 2.5 seconds for next step)
+3. Switch to application where you need it pasted
+4. Wait for text to appea
+
+### How it works:
 
 1. It uses xdtool to acheive keystroke typing taken from clipboard via xclip
-2. Script downloads icon and places paste.png to your home folder, you can change it by replacing icon with different one
-3. Script creates paste.desktop in /usr/share/applications with following contents
+2. It waits 2.5 seconds to type keystrokes via sleep command, *you can modify number of seconds by changing that*
+3. Script downloads icon and places paste.png to your home folder, you can change it by replacing icon with different one
+4. Script creates paste.desktop in /usr/share/applications with following contents
 
 ```[Desktop Entry]
 Name=Cross Paste
-Exec=/bin/bash -c "sh -c 'sleep 1.5; xdotool type \"$(xclip -o -selection clipboard)\"'"
+Exec=/bin/bash -c "sh -c 'sleep 2.5; xdotool type \"$(xclip -o -selection clipboard)\"'"
 Type=Application
 Terminal=false
 Icon=/home/youruser/paste.png
 ```
+
+
 
 
