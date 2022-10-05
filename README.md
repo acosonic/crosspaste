@@ -59,7 +59,7 @@ If you have reverse problem, can't copy-paste from within for example VmWare ESX
 you can try ksnip tool with ksnip OCR plugin. 
 Which can be installed via their continuous build dpkg archives
 
-https://github.com/ksnip/ksnip/releases
+https://github.com/ksnip/ksnip/releases  
 https://github.com/ksnip/ksnip-plugin-ocr/releases/tag/continuous
 
 ![ksnip](ksnip_20221005-113004.png)
