@@ -51,7 +51,7 @@ then paste following to command window
 
 `sh -c 'sleep 2.5; xdotool type "$(xclip -o -selection clipboard)"'`
 
-
+![Keyboard](ksnip_20221005-084927.png)
 
 
 ### Contributors
