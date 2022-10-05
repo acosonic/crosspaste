@@ -26,7 +26,7 @@ Copy-paste this command in terminal:
 1. Copy the text you need pasted on clipboard.
 2. Click paste icon (you have 2.5 seconds for next step)
 3. Switch to application where you need it pasted
-4. Wait for text to appea
+4. Wait for text to appear
 
 ![Usage](vokoscreen-2022-10-04_14-51-29.gif)
 
@@ -34,8 +34,8 @@ Copy-paste this command in terminal:
 
 1. It uses xdtool to acheive keystroke typing taken from clipboard via xclip
 2. It waits 2.5 seconds to type keystrokes via sleep command, *you can modify number of seconds by changing that*
-3. Script downloads icon and places paste.png to your home folder, you can change it by replacing icon with different one
-4. Script creates paste.desktop in /usr/share/applications with following contents
+3. Script downloads icon and places crosspaste.png to your home folder, you can change it by replacing icon with different one
+4. Script creates crosspaste.desktop in /usr/share/applications with following contents
 
 ```[Desktop Entry]
 Name=Cross Paste
