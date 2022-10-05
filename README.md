@@ -1,18 +1,25 @@
 # crosspaste
 Linux cross paste (types clipboard content as keystrokes)
 
-Motivation:
+### Motivation:
 
 This is useful, when you need to paste some content from clipboard to some application like
 vmware's ESXI virtual machine for example or something similar. 
 
-This script will create paste.desktop file in /usr/share/applications 
+This script will create crosspaste.desktop file in /usr/share/applications 
 
 which you can later invoke by running it as application via launcher or dock.
 
 ![Screenshot1](ksnip_20221004-124918.png)
 
 To add it to dock, just right click and choose **Add to Favorites**
+
+### Installation
+
+Copy-paste this command in terminal:
+
+`sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/acosonic/crosspaste/main/install.sh)" root`
+
 
 ### How to use it?
 
@@ -35,7 +42,7 @@ Name=Cross Paste
 Exec=/bin/bash -c "sh -c 'sleep 2.5; xdotool type \"$(xclip -o -selection clipboard)\"'"
 Type=Application
 Terminal=false
-Icon=/home/youruser/paste.png
+Icon=/home/youruser/crosspaste.png
 ```
 
 
