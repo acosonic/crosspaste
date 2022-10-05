@@ -1,7 +1,7 @@
 #!/bin/bash
 apt install -y xdotool xclip
 me="$(whoami)"
-wget ... -P /usr/share/applications/crosspaste.png
+wget https://github.com/acosonic/crosspaste/raw/main/crosspaste.png -P /usr/share/applications/
 cat <<EOF >/usr/share/applications/crosspaste.desktop
 [Desktop Entry]
 Name=Cross Paste
