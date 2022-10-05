@@ -10,6 +10,9 @@ This script will create crosspaste.desktop file in /usr/share/applications
 
 which you can later invoke by running it as application via launcher or dock.
 
+Basically idea was to clone similar functionality from this windows based solution    
+https://christitus.com/clickpaste/
+
 ![Screenshot1](ksnip_20221004-124918.png)
 
 To add it to dock, just right click and choose **Add to Favorites**
