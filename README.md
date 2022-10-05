@@ -44,7 +44,19 @@ Type=Application
 Terminal=false
 Icon=/home/youruser/crosspaste.png
 ```
+### Keyboard shortcut
+
+To use this as keyboard shortcut, open ubuntu settings, and navigate to Keyboard Shortcuts
+then paste following to command window
+
+`sh -c 'sleep 2.5; xdotool type "$(xclip -o -selection clipboard)"'`
 
 
+
+
+### Contributors
+
+Thanks to this askubuntu answer
+https://askubuntu.com/a/218306/513874
 
 
