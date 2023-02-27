@@ -72,4 +72,5 @@ https://github.com/ksnip/ksnip-plugin-ocr/releases/tag/continuous
 Thanks to this askubuntu answer
 https://askubuntu.com/a/218306/513874
 
-
+If you want to modify or manually edit shortcut, you can also do it here:
+~/.local/share/application
